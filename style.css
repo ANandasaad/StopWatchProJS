@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(backgrpund.png) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    background: white;
+    width: 350px;
+    height: 120px;
+    border-radius: 20px;
+    border: solid black;
+    box-shadow: 0 0 3px;
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem; 
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#startButton
+{
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40px;
+}
+#restartButton{
+    font-size: 1.5rem;
+    width: 40px;
+}
+#play{
+    background:green
+}
+#reset{
+    background-color: red;
+}
+#pause{
+    background-color: orange;
+}
